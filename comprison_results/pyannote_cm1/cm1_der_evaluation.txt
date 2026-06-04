@@ -1,0 +1,45 @@
+Hypothesis: results/comprison/pyannote_cm1/cm1_rttm
+Reference:  TSSD_dataset/rttm
+================================================================================
+
+File: sr-39772-audio.rttm
+  Collar=0ms:   DER=35.2520 | MISS=11.7620 | FA=10.6436 | CONF=12.8465
+  Collar=250ms: DER=32.0138 | MISS=10.6886 | FA=8.7145 | CONF=12.6106
+
+File: sr-39773-audio.rttm
+  Collar=0ms:   DER=31.8183 | MISS=25.6070 | FA=3.6504 | CONF=2.5610
+  Collar=250ms: DER=27.8891 | MISS=22.7253 | FA=2.8308 | CONF=2.3330
+
+File: sr-39774-audio.rttm
+  Collar=0ms:   DER=44.9865 | MISS=10.1941 | FA=6.0090 | CONF=28.7835
+  Collar=250ms: DER=38.8237 | MISS=6.2116 | FA=3.4345 | CONF=29.1775
+
+File: sr-39775-audio.rttm
+  Collar=0ms:   DER=33.0114 | MISS=10.6084 | FA=16.5103 | CONF=5.8926
+  Collar=250ms: DER=27.0565 | MISS=8.8745 | FA=13.1100 | CONF=5.0720
+
+File: sr-39776-audio.rttm
+  Collar=0ms:   DER=27.2366 | MISS=8.1710 | FA=12.6337 | CONF=6.4319
+  Collar=250ms: DER=23.6537 | MISS=6.4633 | FA=11.0466 | CONF=6.1437
+
+File: sr-39777-audio.rttm
+  Collar=0ms:   DER=58.4370 | MISS=24.2341 | FA=23.6887 | CONF=10.5143
+  Collar=250ms: DER=55.7357 | MISS=23.0403 | FA=22.1273 | CONF=10.5681
+
+File: sr-39778-audio.rttm
+  Collar=0ms:   DER=24.0942 | MISS=12.5409 | FA=7.8674 | CONF=3.6859
+  Collar=250ms: DER=19.7663 | MISS=10.4819 | FA=5.9958 | CONF=3.2886
+
+File: sr-39779-audio.rttm
+  Collar=0ms:   DER=31.7159 | MISS=17.7678 | FA=8.1417 | CONF=5.8064
+  Collar=250ms: DER=27.9180 | MISS=15.5352 | FA=7.0696 | CONF=5.3132
+
+================================================================================
+Per-file Average (8/8 files)
+Average Collar=0ms:   DER=35.8190 | MISS=15.1106 | FA=11.1431 | CONF=9.5653
+Average Collar=250ms: DER=31.6071 | MISS=13.0026 | FA=9.2911 | CONF=9.3134
+
+================================================================================
+Overall DER (all files evaluated as a whole)
+Overall Collar=0ms:   DER=34.8842 | MISS=14.6924 | FA=11.0254 | CONF=9.1664
+Overall Collar=250ms: DER=30.5962 | MISS=12.6094 | FA=9.1077 | CONF=8.8791

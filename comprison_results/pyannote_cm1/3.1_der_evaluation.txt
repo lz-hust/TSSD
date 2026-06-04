@@ -1,0 +1,45 @@
+Hypothesis: results/comprison/pyannote_cm1/3.1_rttm
+Reference:  TSSD_dataset/rttm     
+================================================================================
+
+File: sr-39772-audio.rttm
+  Collar=0ms:   DER=32.8708 | MISS=11.7617 | FA=10.6430 | CONF=10.4661
+  Collar=250ms: DER=29.7015 | MISS=10.6884 | FA=8.7140 | CONF=10.2991
+
+File: sr-39773-audio.rttm
+  Collar=0ms:   DER=32.6680 | MISS=25.6067 | FA=3.6499 | CONF=3.4114
+  Collar=250ms: DER=28.7735 | MISS=22.7250 | FA=2.8302 | CONF=3.2183
+
+File: sr-39774-audio.rttm
+  Collar=0ms:   DER=18.4204 | MISS=10.1932 | FA=6.0074 | CONF=2.2199
+  Collar=250ms: DER=11.7273 | MISS=6.2114 | FA=3.4337 | CONF=2.0822
+
+File: sr-39775-audio.rttm
+  Collar=0ms:   DER=51.4999 | MISS=10.6082 | FA=16.5098 | CONF=24.3819
+  Collar=250ms: DER=47.1945 | MISS=8.8743 | FA=13.1101 | CONF=25.2101
+
+File: sr-39776-audio.rttm
+  Collar=0ms:   DER=28.8530 | MISS=8.1706 | FA=12.6326 | CONF=8.0498
+  Collar=250ms: DER=25.3875 | MISS=6.4629 | FA=11.0457 | CONF=7.8789
+
+File: sr-39777-audio.rttm
+  Collar=0ms:   DER=71.8855 | MISS=24.2339 | FA=23.6875 | CONF=23.9641
+  Collar=250ms: DER=70.0282 | MISS=23.0401 | FA=22.1268 | CONF=24.8614
+
+File: sr-39778-audio.rttm
+  Collar=0ms:   DER=25.5971 | MISS=12.5402 | FA=7.8667 | CONF=5.1902
+  Collar=250ms: DER=21.3776 | MISS=10.4812 | FA=5.9952 | CONF=4.9012
+
+File: sr-39779-audio.rttm
+  Collar=0ms:   DER=40.7612 | MISS=17.7678 | FA=8.1416 | CONF=14.8518
+  Collar=250ms: DER=37.5652 | MISS=15.5351 | FA=7.0698 | CONF=14.9603
+
+================================================================================
+Per-file Average (8/8 files)
+Average Collar=0ms:   DER=37.8195 | MISS=15.1103 | FA=11.1423 | CONF=11.5669
+Average Collar=250ms: DER=33.9694 | MISS=13.0023 | FA=9.2907 | CONF=11.6764
+
+================================================================================
+Overall DER (all files evaluated as a whole)
+Overall Collar=0ms:   DER=37.2066 | MISS=14.6920 | FA=11.0247 | CONF=11.4899
+Overall Collar=250ms: DER=33.2058 | MISS=12.6091 | FA=9.1072 | CONF=11.4894

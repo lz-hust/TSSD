@@ -1,0 +1,45 @@
+Hypothesis: results/comprison/pyannote_seg_vbx/pyannote_result/rttm
+Reference:  TSSD_dataset/rttm
+================================================================================
+
+File: sr-39772-audio.rttm
+  Collar=0ms:   DER=31.0930 | MISS=11.6806 | FA=6.0746 | CONF=13.3378
+  Collar=250ms: DER=28.1447 | MISS=10.5846 | FA=4.4950 | CONF=13.0650
+
+File: sr-39773-audio.rttm
+  Collar=0ms:   DER=29.7700 | MISS=25.3443 | FA=2.1910 | CONF=2.2347
+  Collar=250ms: DER=25.6567 | MISS=22.3975 | FA=1.3236 | CONF=1.9357
+
+File: sr-39774-audio.rttm
+  Collar=0ms:   DER=16.6222 | MISS=9.9738 | FA=4.9046 | CONF=1.7438
+  Collar=250ms: DER=9.6082 | MISS=6.0435 | FA=2.1686 | CONF=1.3962
+
+File: sr-39775-audio.rttm
+  Collar=0ms:   DER=27.9872 | MISS=11.3061 | FA=7.5305 | CONF=9.1506
+  Collar=250ms: DER=21.5419 | MISS=9.3387 | FA=3.9491 | CONF=8.2542
+
+File: sr-39776-audio.rttm
+  Collar=0ms:   DER=23.2949 | MISS=8.4385 | FA=8.0090 | CONF=6.8473
+  Collar=250ms: DER=19.3919 | MISS=6.8043 | FA=6.2627 | CONF=6.3248
+
+File: sr-39777-audio.rttm
+  Collar=0ms:   DER=38.8223 | MISS=27.5463 | FA=6.1012 | CONF=5.1748
+  Collar=250ms: DER=34.3398 | MISS=26.0457 | FA=4.0544 | CONF=4.2398
+
+File: sr-39778-audio.rttm
+  Collar=0ms:   DER=20.8320 | MISS=13.6917 | FA=4.1908 | CONF=2.9494
+  Collar=250ms: DER=16.0614 | MISS=11.6201 | FA=2.2340 | CONF=2.2072
+
+File: sr-39779-audio.rttm
+  Collar=0ms:   DER=24.8912 | MISS=17.0348 | FA=3.7690 | CONF=4.0875
+  Collar=250ms: DER=20.6113 | MISS=14.8035 | FA=2.2944 | CONF=3.5135
+
+================================================================================
+Per-file Average (8/8 files)
+Average Collar=0ms:   DER=26.6641 | MISS=15.6270 | FA=5.3463 | CONF=5.6907
+Average Collar=250ms: DER=21.9195 | MISS=13.4547 | FA=3.3477 | CONF=5.1170
+
+================================================================================
+Overall DER (all files evaluated as a whole)
+Overall Collar=0ms:   DER=26.4543 | MISS=15.1649 | FA=5.4161 | CONF=5.8733
+Overall Collar=250ms: DER=21.7894 | MISS=13.0083 | FA=3.4206 | CONF=5.3605
