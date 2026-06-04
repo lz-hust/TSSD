@@ -1,0 +1,33 @@
+DER_collar_0.0: 16.951971615132084
+DER_collar_0.25: 12.669711822120819
+additional_segmentation_params: null
+checkpoint: 
+chunk_config:
+  inference_duration: 20
+  model_training_duration: 20.0
+  overlap_percentage: 90.0
+  step_ratio: 0.1
+error_count: 0
+model_config:
+  chunk_duration: 20.0
+  max_speakers:
+  - speaker#1
+  - speaker#2
+  - speaker#3
+  - speaker#4
+model_type: teacher
+pipeline_params:
+  clustering:
+    method: centroid
+    min_cluster_size: 30
+    threshold: 0.75
+  segmentation:
+    min_duration_off: 0.0
+    threshold: 0.5
+protocol: TSSD.SpeakerDiarization.SemiSupervised
+speaker_constraints:
+  max_speakers: null
+  min_speakers: null
+  num_speakers: 2
+success_count: 8
+total_files: 8
