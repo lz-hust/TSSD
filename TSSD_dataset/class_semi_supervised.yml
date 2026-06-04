@@ -1,0 +1,41 @@
+# =============================================================================
+# Mini Dataset Semi-Supervised Protocol Configuration
+# =============================================================================
+# Description:
+# 1. This YAML file defines the semi-supervised protocol CeshiSemiSupervised
+# 2. Labeled data is defined in this YAML (train, development, test)
+# 3. Unlabeled data is listed separately in lists/unlabeled_train.txt
+# 4. Use YAMLProtocolWrapper to load the protocol and add unlabeled data support
+#
+# Usage:
+#   from new_protocol.yaml_protocol_wrapper import YAMLProtocolWrapper
+#   protocol = YAMLProtocolWrapper(
+#       yaml_protocol_name='Mini.SpeakerDiarization.CeshiSemiSupervised',
+#       unlabeled_uri_file='lists/unlabeled_train.txt',
+#       audio_template='WAV/{uri}.wav',
+#       database_root='/path/to/databases/mini'
+#   )
+# =============================================================================
+
+Databases:
+  TSSD: WAV/{uri}.wav
+  
+Protocols:
+  TSSD:
+    SpeakerDiarization:
+      # Mean Teacher semi-supervised protocol
+      # Labeled data defined here, unlabeled data added via YAMLProtocolWrapper
+      SemiSupervised:
+        scope: file
+        train:
+          uri: lists/train.txt              # Labeled training data
+          annotation: rttm/{uri}.rttm
+          annotated: uems/{uri}.uem
+        development:
+          uri: lists/dev.txt
+          annotation: rttm/{uri}.rttm
+          annotated: uems/{uri}.uem
+        test:
+          uri: lists/test.txt
+          annotation: rttm/{uri}.rttm
+          annotated: uems/{uri}.uem
