@@ -1,0 +1,78 @@
+Requirements:
+  - msdwild/database.yml
+  - voxconverse/database.yml
+  - alimeeting/database.yml
+  - ami/database.yml
+  - ramc/database.yml
+  - ava-avd/database.yml
+  - aishell4/database.yml
+  - ego4d/database.yml
+  - simu/4spk/database.yml
+  - simu/3spk/database.yml
+  - simu/2spk/database.yml
+  - simu/1spk/database.yml
+
+Protocols:
+  X:
+    SpeakerDiarization:
+      Version1:
+        train:
+          MSDWILD.SpeakerDiarization.CustomFew: [train]
+          VoxConverse.SpeakerDiarization.Custom1: [train]
+          AliMeeting.SpeakerDiarization.Original: [train]
+          AMI-SDM.SpeakerDiarization.only_words: [train]
+          RAMC.SpeakerDiarization.Full: [train]
+          AISHELL4.SpeakerDiarization.Custom: [train]
+          Simu.SpeakerDiarization.Speaker4: [train]
+        development:
+          MSDWILD.SpeakerDiarization.CustomFew: [development]
+          VoxConverse.SpeakerDiarization.Custom1: [development]
+          AliMeeting.SpeakerDiarization.Original: [development]
+          AMI-SDM.SpeakerDiarization.only_words: [development]
+          RAMC.SpeakerDiarization.Full: [development]
+          AISHELL4.SpeakerDiarization.Custom: [development]
+          Simu4.SpeakerDiarization.Speaker4: [development]
+        test:
+          MSDWILD.SpeakerDiarization.CustomFew: [test]
+          VoxConverse.SpeakerDiarization.Custom1: [test]
+          AliMeeting.SpeakerDiarization.Original: [test]
+          AMI-SDM.SpeakerDiarization.only_words: [test]
+          RAMC.SpeakerDiarization.Full: [test]
+          AISHELL4.SpeakerDiarization.Custom: [test]
+
+      Version2:
+        train:
+          MSDWILD.SpeakerDiarization.CustomFew: [train]
+          VoxConverse.SpeakerDiarization.Custom1: [train]
+          AliMeeting.SpeakerDiarization.Original: [train]
+          AMI-SDM.SpeakerDiarization.only_words: [train]
+          RAMC.SpeakerDiarization.Full: [train]
+          AISHELL4.SpeakerDiarization.Custom: [train]
+          AVA-AVD.SpeakerDiarization.Benchmark: [train]
+          Ego4D.SpeakerDiarization.Original: [train]
+          Simu4.SpeakerDiarization.Speaker4: [train]
+          Simu3.SpeakerDiarization.Speaker3: [train]
+          Simu2.SpeakerDiarization.Speaker2: [train]
+          Simu1.SpeakerDiarization.Speaker1: [train]
+        development:
+          MSDWILD.SpeakerDiarization.CustomFew: [development]
+          VoxConverse.SpeakerDiarization.Custom1: [development]
+          AliMeeting.SpeakerDiarization.Original: [development]
+          AMI-SDM.SpeakerDiarization.only_words: [development]
+          RAMC.SpeakerDiarization.Full: [development]
+          AISHELL4.SpeakerDiarization.Custom: [development]
+          AVA-AVD.SpeakerDiarization.Benchmark: [development]
+          Ego4D.SpeakerDiarization.Original: [development]
+          Simu4.SpeakerDiarization.Speaker4: [development]
+          Simu3.SpeakerDiarization.Speaker3: [development]
+          Simu2.SpeakerDiarization.Speaker2: [development]
+          Simu1.SpeakerDiarization.Speaker1: [development]
+        test:
+          MSDWILD.SpeakerDiarization.CustomFew: [test]
+          VoxConverse.SpeakerDiarization.Custom1: [test]
+          AliMeeting.SpeakerDiarization.Original: [test]
+          AMI-SDM.SpeakerDiarization.only_words: [test]
+          RAMC.SpeakerDiarization.Full: [test]
+          AISHELL4.SpeakerDiarization.Custom: [test]
+          AVA-AVD.SpeakerDiarization.Benchmark: [test]
+          Ego4D.SpeakerDiarization.Original: [test]

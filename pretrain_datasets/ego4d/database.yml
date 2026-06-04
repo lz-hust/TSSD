@@ -1,0 +1,20 @@
+Databases:
+  Ego4D: wave/{uri}.wav
+
+Protocols:
+  Ego4D:
+    SpeakerDiarization:
+      Original:
+        scope: file
+        train:
+            uri: lists/train.list
+            annotation: rttm/train/{uri}.rttm
+            annotated: uem/train/{uri}.uem
+        development:
+            uri: lists/val.list
+            annotation: rttm/val/{uri}.rttm
+            annotated: uem/val/{uri}.uem
+        test:
+            uri: lists/test.list
+            annotation: rttm/val/{uri}.rttm
+            annotated: uem/val/{uri}.uem

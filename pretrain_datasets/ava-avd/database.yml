@@ -1,0 +1,20 @@
+Databases:
+  AVA-AVD: waves/{uri}.wav
+
+Protocols:
+  AVA-AVD:
+    SpeakerDiarization:
+      Benchmark:
+        scope: file
+        train:
+          uri: lists/train.list
+          annotation: rttms/{uri}.rttm
+          annotated: uems/{uri}.uem
+        development:
+          uri: lists/test.list
+          annotation: rttms/{uri}.rttm
+          annotated: uems/{uri}.uem
+        test:
+          uri: lists/test.list
+          annotation: rttms/{uri}.rttm
+          annotated: uems/{uri}.uem

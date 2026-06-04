@@ -1,0 +1,18 @@
+Databases:
+  Simu1:
+  - dev_clean_ns1_beta2_500/{uri}.wav
+  - train_clean_360_ns1_beta2_10000/{uri}.wav
+  
+Protocols:
+  Simu1:
+    SpeakerDiarization:
+      Speaker1:
+        scope: file
+        train:
+          uri: lists_1spk/train.txt
+          annotation: rttm_1spk/train.rttm
+          annotated: uems_1spk/train.uem
+        development:
+          uri: lists_1spk/dev.txt
+          annotation: rttm_1spk/dev.rttm
+          annotated: uems_1spk/dev.uem
